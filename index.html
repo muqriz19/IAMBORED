@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+
+  <!-- Styling -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <!-- Navigation Links -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#">IAMBORED</a> -->
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="all-container">
+
+      <hr>
+      <!-- Page Heading -->
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <div class="title-box">
+            <div class="title">
+              <p>IAMBORED!</p>
+            </div>
+
+            <hr>
+
+            <div class="description">
+              <p>So your bored and want to find something to do...</p>
+              <p>How about you jam letters and words on that search field and see what you want to do.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <!-- Search and Button -->
+          <div class="input-area">
+            <input type="text" class="form-control" placeholder="Search things to do">
+
+            <button id="search-button">LETS GO!</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sort/Filter Activities -->
+      <!-- <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <section id="sort-box">
+          <p>SORT</p>
+        </section>
+      </div>
+    </div> -->
+
+      <!-- Collection of Activities -->
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <section id="list-of-activities-box">
+            <div class="header">
+              <div class="title">
+                <p>Search results of <span>"search query"</span> returned...</p>
+              </div>
+            </div>
+
+            <div class="activities-box">
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <hr>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container-fluid">
+      <p class="text-muted">&copy <span id="footer-date">2018</span> IAMBORED</p>
+    </div>
+  </footer>
+
+
+  <!-- Resource Scripts -->
+  <script src="assets/js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="assets/js/bootstrap.js" charset="utf-8"></script>
+
+  <!-- Main Scripts -->
+  <script type="module" src="main.js" charset="utf-8"></script>
+
+</body>
+
+</html>

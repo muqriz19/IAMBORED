@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/Dosis-Regular.ttf');
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/* navigation */
+.navbar {
+    border-radius: 0px;
+}
+
+/* container that holds all */
+.all-container {
+    margin: 20px auto;
+    /* border-right: 8px solid rgba(0,0,0,0.7);
+    border-left: 8px solid rgba(0,0,0,0.7); */
+    background-color: aquamarine;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 1px 1px rgb(184, 184, 184);
+
+
+}
+
+
+/* the page title container box */
+.title-box {
+    text-align: center;
+    /* border: 8px solid rgba(0, 0, 0, 0.7); */
+    padding: 20px;
+    margin-bottom: 5%;
+    /* border-style: outset; */
+    /* border-radius: 8px;
+    background-color: tomato; */
+    /* box-shadow: 0px 1px 1px rgb(184, 184, 184); */
+}
+
+/* page title itself */
+.title {
+    font-size: 55px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 800;
+    font-family: 'Dosis';
+}
+
+/* bootstrap class input */
+.form-control {
+    font-family: 'Verdana';
+    text-align: center;
+    padding: 20px;
+    border-radius: 45px;
+    box-shadow: 0px 1px 1px rgb(184, 184, 184);
+
+}
+
+/* search activity button */
+button {
+    display: inherit;
+    margin: 10px auto;
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    background: peachpuff;
+    border: none;
+    font-family: 'Dosis';
+    font-weight: 700;
+    box-shadow: 0px 1px 1px rgb(184, 184, 184);
+
+}
+
+#list-of-activities-box .header .title {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* activities box */
+.activities-box {
+    height: 450px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: whitesmoke;
+    box-shadow: 0px 1px 1px rgb(184, 184, 184);
+    display: none;
+
+}
+
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
