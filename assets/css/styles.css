@@ -59,12 +59,12 @@ body {
 /* page description */
 .title-box .description {
     font-family: 'Roboto';
-    
+
 }
 
 /* bootstrap class input */
 .form-control {
-    font-family: 'Verdana';
+    font-family: 'Roboto';
     text-align: center;
     padding: 20px;
     border-radius: 45px;
