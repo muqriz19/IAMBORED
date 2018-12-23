@@ -22,15 +22,19 @@ body {
     border-radius: 0px;
 }
 
+/* select all div.col* and background pink color */
+div[class^="col-"] {
+    
+}
+
 /* container that holds all */
 .all-container {
     margin: 20px auto;
-    /* border-right: 8px solid rgba(0,0,0,0.7);
-    border-left: 8px solid rgba(0,0,0,0.7); */
-    background-color: #63bde7;
-    border-radius: 8px;
-    padding: 40px;
-    box-shadow: 0px 1px 1px rgb(184, 184, 184);
+    background: pink;
+
+    padding-right: 20px;
+    padding-left: 20px;
+
 
 
 }
@@ -40,7 +44,6 @@ body {
 .title-box {
     text-align: center;
     /* border: 8px solid rgba(0, 0, 0, 0.7); */
-    padding: 20px;
     margin-bottom: 5%;
     /* border-style: outset; */
     /* border-radius: 8px;
@@ -54,6 +57,7 @@ body {
     color: rgba(0, 0, 0, 0.7);
     font-weight: 800;
     font-family: 'Dosis';
+    background: pink;
 }
 
 /* page description */
@@ -72,6 +76,25 @@ body {
 
 }
 
+/* type title */
+.type-title {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+div.header .title {
+    display: none;
+}
+
+/* how many activities text */
+.how-many-text {
+    padding: 10px;
+    text-align: center;
+}
+
 /* search activity button */
 button {
     display: inherit;
@@ -80,7 +103,8 @@ button {
     height: 25%;
     padding: 10px;
     border-radius: 10px;
-    background: peachpuff;
+    background: rgba(0, 0, 0, 0.7);
+    color: whitesmoke;
     border: none;
     font-family: 'Dosis';
     font-weight: 700;
