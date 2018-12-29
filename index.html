@@ -53,7 +53,7 @@
                 <option value="cooking">Cooking</option>
                 <option value="relaxation">Relaxation</option>
                 <option value="music">Music</option>
-                <option value="buyswork">Busy Work</option>
+                <option value="busywork">Busy Work</option>
               </select>
             </div>
           </div>
@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="col-md-4 col-md-offset-4">
-              <input type="text" class="form-control">
+              <input type="number" id="num-of-times" class="form-control" min="1">
             </div>
           </div>
         </div>
@@ -87,12 +87,19 @@
         <div class="col-md-4 col-md-offset-4">
           <section id="list-of-activities-box">
             <div class="header">
-              <div class="title">
-                <p>Search results of <span>"search query"</span> returned...</p>
+              <div class="search-title">
+                <p>Search results of <span id="query">"search query"</span> returned...</p>
               </div>
             </div>
 
             <div class="activities-box">
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="list-of-activities">
+
+                  </ul>
+                </div>
+              </div>
 
             </div>
           </section>
