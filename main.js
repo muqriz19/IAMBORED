@@ -44,8 +44,7 @@ function searchActivity(query, numOfTimes) {
             });
 
         }
-        console.log(listOfActivities);
-
+        
         let activityBox = document.querySelector('.activities-box ');
         let searText = document.querySelector('.search-title');
         let ulEle = document.querySelector('.list-of-activities');
@@ -80,9 +79,6 @@ function searchActivity(query, numOfTimes) {
                 ulEle.appendChild(liEle);
 
             }
-
-            console.log(ulEle);
-
         }, 1000);
 
 
