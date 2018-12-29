@@ -22,11 +22,6 @@ body {
     border-radius: 0px;
 }
 
-/* select all div.col* and background pink color */
-div[class^="col-"] {
-    
-}
-
 /* container that holds all */
 .all-container {
     margin: 20px auto;
@@ -34,9 +29,6 @@ div[class^="col-"] {
 
     padding-right: 20px;
     padding-left: 20px;
-
-
-
 }
 
 
@@ -67,14 +59,14 @@ div[class^="col-"] {
 }
 
 /* bootstrap class input */
-.form-control {
+/* .form-control {
     font-family: 'Roboto';
     text-align: center;
     padding: 20px;
-    border-radius: 45px;
+    border-radius: 35px;
     box-shadow: 0px 1px 1px rgb(184, 184, 184);
 
-}
+} */
 
 /* type title */
 .type-title {
@@ -85,7 +77,13 @@ div[class^="col-"] {
 
 }
 
-div.header .title {
+/* search text */
+div.header .search-title {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Dosis';
     display: none;
 }
 
@@ -121,7 +119,7 @@ button {
 
 /* activities box */
 .activities-box {
-    height: 450px;
+    height: 250px;
     margin-bottom: 20px;
     border-radius: 8px;
     background: whitesmoke;
@@ -130,9 +128,25 @@ button {
 
 }
 
+/* ul container */
+.list-of-activities {
+    padding: 8px;
+    width: 100%;
+    height: 100%;;
+}
 
+/* list of activities */
+.list-of-activities li {
+    background: peachpuff;
+    padding: 8px 8px;
+    border-radius: 8px;
+    list-style: none;
+    margin: 8px auto;
+    box-shadow: 0px 1px 1px rgb(184, 184, 184);
 
+}
 
+/* footer */
 .footer {
     position: absolute;
     bottom: 0;
