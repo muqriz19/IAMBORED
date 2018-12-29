@@ -65,8 +65,9 @@ function searchActivity(query, numOfTimes) {
 
                 let liEle = document.createElement('li');
                 let text = document.createTextNode(`${listOfActivities[i].activity}`);
+                let buttonTxt = document.createTextNode('>');
                 let buttonAct = document.createElement('button');
-                buttonAct.innerHTML = ':D';
+                buttonAct.appendChild(buttonTxt);
                 buttonAct.classList.add('pull-right');
 
                 buttonAct.addEventListener('click', function() {
